@@ -22,7 +22,7 @@ public class JsonParser {
 					JSONObject c = array.getJSONObject(i);
 					HashMap<String, String> map = new HashMap<String, String>();
 					for(int j=0;j<elements.length;j++){
-					map.put(elements[j], c.getString(elements[j]));
+					map.put(elements[j], ""+c.get(elements[j]));
 					}
                 
                 arraylist.add(map);
