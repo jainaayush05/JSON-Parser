@@ -10,3 +10,6 @@ http://dl.dropbox.com/u/61561776/JSON.jar
 http://dl.dropbox.com/u/61561776/JsonParser.jar
 
 See Example.java to learn how to use.
+<pre>
+ArrayList<HashMap<String, String>> jsonarray= JsonParser.parse(Json_url, node, element1,element2,...);
+</pre>
